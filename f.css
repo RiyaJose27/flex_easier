@@ -1,36 +1,28 @@
-
-
-
-
 .row {
-display:flex;
-background-color: red;
-
-padding:20px;
-margin:10px;
-
-
-
+    display: flex;
+    gap: 1.5em;
+    margin: 10px;
 }
+
 .col {
     flex: 1;
-    background-color: lightgreen;
-    padding: 20px;
-    margin: 10px;
+    background-color:teal;
+    padding: 1.5em;
+    color: white;
 
 }
 
 
 .col-2 {
     flex: 2;
-    background-color: blue;
-    padding: 20px;
-    margin: 10px;
+    background-color:teal;
+    color: white;
+    padding: 1.5em;
 }
 
 .col-3 {
     flex: 3;
-    background-color: pink;
-    padding: 20px;
-    margin: 10px;
+    background-color: teal;
+    color: white;
+    padding: 1.5em;
 }
